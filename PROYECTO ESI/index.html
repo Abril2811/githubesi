@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RED DE APOYO "LAS ROJAS"</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+
+        <h1>RED DE APOYO "LAS ROJAS</h1>
+
+        <p class="eslogan">
+            Cada vez que una mujer DENUNCIA una la violencia, todas las mujeres pueden estar más SEGURAS. Tu voz importa.
+        </p>
+
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#quienes">¿Quiénes Somos?</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#denuncia">Denuncias</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <section class="bienvenida">
+
+        <h2>Bienvenidxs</h2>
+
+        <p>
+            Somos una organización sin fines de lucro dedicada a brindar
+            acompañamiento, orientación y contención a personas que atraviesan
+            situaciones de violencia de género.
+        </p>
+
+    </section>
+
+    <section id="quienes">
+
+        <h2>¿Quiénes Somos?</h2>
+
+        <p>
+            Nuestro objetivo es promover una sociedad basada en la igualdad,
+            el respeto y la inclusión.
+        </p>
+
+        <p>
+            Trabajamos con profesionales voluntarios y organizaciones
+            comprometidas con la defensa de los derechos humanos.
+        </p>
+
+    </section>
+
+    <section class="frases">
+
+        <h2>Mensajes de Concientización</h2>
+
+        <p>"La violencia de género es una violación de derechos humanos. Defender los derechos de las mujeres exige compromiso y acción colectiva."</p>
+
+        <p>"El silencio protege al agresor, nunca a la víctima."</p>
+
+        <p>"Denunciar es un acto de valentía."</p>
+
+    </section>
+
+    <section>
+
+        <h2>Impacto de Nuestro Trabajo</h2>
+
+        <table>
+
+            <thead>
+                <tr>
+                    <th>Servicio</th>
+                    <th>Personas Asistidas</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Orientación</td>
+                    <td>500+</td>
+                </tr>
+
+                <tr>
+                    <td>Atención Psicológica</td>
+                    <td>300+</td>
+                </tr>
+
+                <tr>
+                    <td>Asesoramiento</td>
+                    <td>200+</td>
+                </tr>
+            </tbody>
+
+        </table>
+
+    </section>
+
+    <section id="galeria">
+
+        <h2>Galería de Concientización</h2>
+
+        <div class="galeria">
+
+            <img src="imagenes/igualdad.jpg" alt="Igualdad">
+            <img src="imagenes/apoyo.jpg" alt="Apoyo">
+            <img src="imagenes/ayuda.jpg" alt="Ayuda">
+            <img src="imagenes/respeto.jpg" alt="Respeto">
+
+            <img src="imagenes/diversidad.jpg" alt="Diversidad">
+            <img src="imagenes/denuncia.jpg" alt="Denuncia">
+            <img src="imagenes/contencion.jpg" alt="Contención">
+            <img src="imagenes/derechos.jpg" alt="Derechos">
+
+        </div>
+
+    </section>
+
+    <section id="denuncia">
+
+        <h2>Formulario de Denuncia</h2>
+
+        <form action="denuncia_enviada.html" method="post">
+
+            <label for="nombre">Nombre (opcional)</label>
+            <input type="text" id="nombre" name="nombre">
+
+            <label for="apellido">Apellido (opcional)</label>
+            <input type="text" id="apellido" name="apellido">
+
+            <label for="correo">Correo Electrónico</label>
+            <input type="email" id="correo" name="correo" required>
+
+            <label for="tipo">Tipo de denuncia</label>
+
+            <select id="tipo" name="tipo" required>
+                <option value="">Seleccione una opción</option>
+                <option>Acoso</option>
+                <option>Violencia Física</option>
+                <option>Violencia Psicológica</option>
+                <option>Violencia Digital</option>
+                <option>Discriminación</option>
+            </select>
+
+            <label for="mensaje">Descripción de los hechos</label>
+
+            <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+            <p>¿Desea realizar la denuncia de forma anónima?</p>
+
+            <input type="radio" name="anonima"> Sí
+            <input type="radio" name="anonima"> No
+
+            <p>¿Desea recibir acompañamiento psicológico online?</p>
+
+            <input type="checkbox">
+            Solicitar contacto profesional
+
+            <br><br>
+
+            <input type="submit" value="Enviar Denuncia">
+            </form>
+
+<p class="mensaje">
+Al enviar este formulario, un integrante de Red de apoyo Las Rojas analizará la denuncia y, si solicitaste acompañamiento psicológico, se comunicará mediante el correo electrónico proporcionado.
+</p>
+
+        </form>
+
+    </section>
+
+    <section id="contacto">
+
+        <h2>Redes Sociales</h2>
+
+        <p>
+            Seguinos y conocé nuestras campañas de concientización.
+        </p>
+
+        <a href="https://www.instagram.com">Instagram</a><br>
+        <a href="https://www.facebook.com">Facebook</a><br>
+        <a href="https://www.youtube.com">YouTube</a><br>
+        <a href="https://www.twitter.com">Twitter/X</a>
+
+    </section>
+
+    <footer>
+
+        <p>
+            Red de apoyo "Las Rojas" - Organización sin fines de lucro
+        </p>
+
+        <p>
+            Email: contacto@lasrojas.org
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
